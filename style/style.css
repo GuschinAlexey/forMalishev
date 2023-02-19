@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: -apple-system,Open Sans,sans-serif;
+}
+
+header {
+    background-color: #3cc7da ;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    border-bottom: #12d399 2px solid;
+    user-select: none;
+    box-shadow: 0 0 3px 3px rgb(1 1 1 / 13%);
+}
+
+.hed_left {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    display: flex;
+}
+
+.hed_img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+.naz_hed {
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hed_left2 {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 11px;
+    border-bottom: 3px solid #3cc7da;
+    
+}
+
+.hed_left2:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.hed_read {
+    margin-left: 30%;
+    padding-top: 45px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hed_read:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 29%;
+    margin-top: 50px;
+
+}
+
+.zag {
+    font-size: 30px;
+    font-weight: 700;
+}
+.predpis {
+    color: rgba(0, 0, 0, 0.644);
+    font-weight: 400;
+}
+
+table {
+    padding: 10 20px;
+    width: 100%;
+}
+
+td, th {
+    padding: 10px 20px;
+}
+
+.zag_tablo {
+    border-bottom: 2px solid black;
+}
+
+.text_tablo:hover {
+    cursor: pointer;
+    color: #0c10ff;
+}
+
+.img_tablo {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+}
+
+.foot {
+    height: 90px;
+    background-color: #3cc7da;
+    width: 100%;
+    display: flex;
+}
+
+.zag_foot {
+    margin-left: 30%;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.opis {
+    padding-top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2%;
+    text-align: right;
+}
