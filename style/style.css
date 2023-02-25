@@ -44,6 +44,10 @@ header {
     font-weight: 700;
 }
 
+.photo {
+    cursor: none;
+}
+
 .hed_left2 {
     display: block;
     font-size: 20px;
